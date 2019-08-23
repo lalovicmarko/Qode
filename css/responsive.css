@@ -11,6 +11,11 @@
 	.top-nav, .bottom-nav {
 	  display: none;
 	}
+	
+	.hover-div {
+	width: 100%;
+	grid-column: span 2;
+	}
 		
 	.news-big{
     width: 100%;
@@ -22,8 +27,10 @@
 	
 	.news-small{
     width: 100%;
-	}	
+	height: 100%;
+	min-height: 198px;
 
+	}	
 	.navbar {
 		overflow: hidden;
 		position: relative;
@@ -81,8 +88,8 @@
 		padding-left: 22px;
 	}
 	
-	.double-small .news-small{
-	height: 50%
+	.news-small{
+	height: 100%
 	}
 }
 
@@ -95,7 +102,3 @@
 	  display: none;
 	}
 }
-
-
-
-
